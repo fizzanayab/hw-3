@@ -11,13 +11,38 @@ body{
     
 }
 
+
 img{
     width: 80px;
-    height: 85px;
-    margin-left: 10px;
-    float: left;
+    height: 75px;
+    
 
 }
+.logo{
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+     border-radius: 80%;
+    overflow: hidden;
+    
+}
+
+.logo:hover{
+    transform: rotate(360deg);
+    transition: 0.9s;
+}
+
+
+i{
+    font-size: 15px;
+    float: right;
+    color: #79BCF9;
+    margin-top: 30px;
+    display: flex;
+    margin-left: 5px ;
+}
+
+
 
 h2{
    color: aliceblue;
@@ -27,6 +52,30 @@ h2{
  margin-top: 30px;
 
 }
+
+
+span{
+   font-size: 12px;
+   color: rgb(255, 255, 255);
+   float: right;
+   margin-top: 30px;
+   margin-left: 20px;
+
+}
+
+span:hover{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+ 
+  span.download {
+    background-color: #79BCF9;
+    color: white;
+    border-radius: 10%;
+  }
+
+
 
 .center{
     min-width: 900px;
@@ -54,6 +103,9 @@ h2{
     margin-right: 50px;
 
 }
+
+
+
 
 .one{
     width: 206px;
@@ -106,5 +158,26 @@ h1{
     margin-right: 30px;
 font-size: 50px;
  text-shadow: 2px 2px #b6b3b3;
+
+}
+
+
+.litop{
+    margin-top: 170px;
+
+}
+
+li{
+color: #000000;
+list-style-type: none;
+}
+
+
+h5{
+    background-color: #79BCF9;
+    border-radius: 20px;
+    color: azure;
+    float: left;
+    margin-left: 10px;
 
 }
